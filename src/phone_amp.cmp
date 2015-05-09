@@ -1,0 +1,290 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 5/8/2015 11:43:40 PM
+
+BeginCmp
+TimeStamp = /552AA75C;
+Reference = C1;
+ValeurCmp = 220n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552BDB3A;
+Reference = C2;
+ValeurCmp = 22n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552C2F69;
+Reference = C3;
+ValeurCmp = 1u;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552BD8C1;
+Reference = C4;
+ValeurCmp = 22n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552AA1D3;
+Reference = C5;
+ValeurCmp = 2.2n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B7008;
+Reference = C6;
+ValeurCmp = 220n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B73A0;
+Reference = C7;
+ValeurCmp = 220n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55436F23;
+Reference = C8;
+ValeurCmp = 220n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B7300;
+Reference = C9;
+ValeurCmp = 22n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552C394B;
+Reference = C10;
+ValeurCmp = 1u;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552C3F85;
+Reference = C11;
+ValeurCmp = 1u;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /554465AC;
+Reference = C12;
+ValeurCmp = 1u;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B658E;
+Reference = C13;
+ValeurCmp = 22n;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552AC0A7;
+Reference = C14;
+ValeurCmp = 1u;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55438339;
+Reference = C15;
+ValeurCmp = 1u;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A9AA1;
+Reference = C16;
+ValeurCmp = 1u;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5544542B;
+Reference = F1;
+ValeurCmp = 200mA;
+IdModule  = footprints:FUSE-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5543973E;
+Reference = J1;
+ValeurCmp = M_USB_B;
+IdModule  = footprints:USB-MICRO-TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5542EFCE;
+Reference = J2;
+ValeurCmp = PJ313D;
+IdModule  = footprints:JACK-3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5542F036;
+Reference = J3;
+ValeurCmp = PJ313D;
+IdModule  = footprints:JACK-3.5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55431A9D;
+Reference = J4;
+ValeurCmp = RJ9_4P4C;
+IdModule  = footprints:RJ9-4P4C;
+EndCmp
+
+BeginCmp
+TimeStamp = /554316C3;
+Reference = J5;
+ValeurCmp = RJ9_4P4C;
+IdModule  = footprints:RJ9-4P4C;
+EndCmp
+
+BeginCmp
+TimeStamp = /552C4BE3;
+Reference = R1;
+ValeurCmp = 27.3k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552AA588;
+Reference = R2;
+ValeurCmp = 2.4k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552CA063;
+Reference = R3;
+ValeurCmp = 18k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552CA24A;
+Reference = R4;
+ValeurCmp = 18k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552AA113;
+Reference = R5;
+ValeurCmp = 18k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B6FA8;
+Reference = R6;
+ValeurCmp = 2.4k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B735A;
+Reference = R7;
+ValeurCmp = 2.4k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55437407;
+Reference = R8;
+ValeurCmp = 3.3k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B72AC;
+Reference = R9;
+ValeurCmp = 2.4k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A9A4A;
+Reference = R10;
+ValeurCmp = 2.4k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55418FB0;
+Reference = R11;
+ValeurCmp = 100k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55419742;
+Reference = R12;
+ValeurCmp = 43k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552ABC5F;
+Reference = R13;
+ValeurCmp = 100k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552ABF4D;
+Reference = R14;
+ValeurCmp = 100k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552B0547;
+Reference = R15;
+ValeurCmp = 3.3k;
+IdModule  = footprints:CHIP-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /552CD3BB;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = footprints:SWITCH-SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A98D7;
+Reference = U1;
+ValeurCmp = TPA6139A2;
+IdModule  = footprints:TSSOP-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /552A9715;
+Reference = U2;
+ValeurCmp = MCP6024;
+IdModule  = footprints:TSSOP-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /554237E3;
+Reference = U3;
+ValeurCmp = TC1017;
+IdModule  = footprints:SC-70;
+EndCmp
+
+EndListe
