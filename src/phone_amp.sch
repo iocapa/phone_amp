@@ -671,9 +671,9 @@ F 3 "" H 4700 6250 60  0000 C CNN
 $EndComp
 Text GLabel 8300 2750 0    60   Input ~ 0
 HP_MIC
-Text GLabel 8300 3200 0    60   Input ~ 0
+Text GLabel 8300 3600 0    60   Input ~ 0
 HP_SPK_L
-Text GLabel 8300 3350 0    60   Input ~ 0
+Text GLabel 8300 3200 0    60   Input ~ 0
 HP_SPK_R
 $Comp
 L RJ9_4P4C J5
@@ -1319,20 +1319,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 5200 2600 5150
 Wire Wire Line
-	8800 3700 8600 3700
-Wire Wire Line
-	8600 3700 8600 3200
-Wire Wire Line
-	8500 3300 8800 3300
-Wire Wire Line
-	8300 3350 8500 3350
-Wire Wire Line
-	8600 3200 8300 3200
-Wire Wire Line
-	8500 3350 8500 3300
-NoConn ~ 8800 3200
-NoConn ~ 8800 3600
-Wire Wire Line
 	7700 5200 7800 5200
 $Comp
 L GND #PWR031
@@ -1371,4 +1357,10 @@ Connection ~ 9450 4950
 Wire Wire Line
 	9750 5050 9350 5050
 Connection ~ 9350 5050
+NoConn ~ 8800 3700
+NoConn ~ 8800 3300
+Wire Wire Line
+	8300 3200 8800 3200
+Wire Wire Line
+	8800 3600 8300 3600
 $EndSCHEMATC
