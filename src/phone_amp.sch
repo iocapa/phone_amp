@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:CaPaSchLib
+LIBS:phone_amp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -696,9 +697,9 @@ F 3 "" H 10250 4950 60  0000 C CNN
 	1    10150 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 9200 5000 0    60   Input ~ 0
-HS_SPK_P
 Text GLabel 9200 4800 0    60   Input ~ 0
+HS_SPK_P
+Text GLabel 9200 4950 0    60   Input ~ 0
 HS_SPK_N
 $Comp
 L C C8
@@ -733,7 +734,7 @@ F 3 "" H 3500 5200 60  0000 C CNN
 	1    3500 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8350 1150 0    60   Input ~ 0
+Text GLabel 8350 950  0    60   Input ~ 0
 HP_MIC_OUT
 $Comp
 L FUSE F1
@@ -837,7 +838,7 @@ F 3 "" H 9050 3500 60  0000 C CNN
 $EndComp
 Text GLabel 9200 5200 0    60   Input ~ 0
 HS_MIC_P
-Text GLabel 8350 950  0    60   Input ~ 0
+Text GLabel 8350 1150 0    60   Input ~ 0
 HS_MIC_P
 Text GLabel 9600 1050 2    60   Input ~ 0
 PHONE_MIC_P
@@ -1075,14 +1076,6 @@ Wire Wire Line
 	9550 5200 9550 5150
 Wire Wire Line
 	9200 5200 9550 5200
-Connection ~ 9350 4950
-Wire Wire Line
-	9200 4800 9350 4800
-Connection ~ 9450 5050
-Wire Wire Line
-	9250 5000 9250 5050
-Wire Wire Line
-	9200 5000 9250 5000
 Connection ~ 8700 3500
 Wire Wire Line
 	8700 3400 8800 3400
@@ -1111,13 +1104,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 950  4200 950 
 Wire Wire Line
-	9350 4950 9750 4950
-Wire Wire Line
-	9350 4800 9350 5800
-Wire Wire Line
-	9250 5050 9750 5050
-Wire Wire Line
-	9450 5700 9450 5050
+	9450 4950 9450 5700
 Connection ~ 3500 4800
 Wire Wire Line
 	3500 5200 3500 5150
@@ -1374,4 +1361,14 @@ Wire Wire Line
 	8350 950  8500 950 
 Wire Wire Line
 	8500 1150 8350 1150
+Wire Wire Line
+	9200 4800 9350 4800
+Wire Wire Line
+	9350 4800 9350 5800
+Wire Wire Line
+	9200 4950 9750 4950
+Connection ~ 9450 4950
+Wire Wire Line
+	9750 5050 9350 5050
+Connection ~ 9350 5050
 $EndSCHEMATC
