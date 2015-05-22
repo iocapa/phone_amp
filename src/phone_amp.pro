@@ -1,4 +1,4 @@
-update=5/13/2015 8:06:24 PM
+update=5/22/2015 11:54:59 PM
 version=1
 last_client=kicad
 [general]
@@ -46,12 +46,12 @@ LibName31=C:/Users/Johny/Downloads/kicad/library/CaPaSchLib
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=phone_amp.net
 UseCmpFile=1
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=1.5
-PadSizeV=1.5
+PadSizeH=1.2
+PadSizeV=2.5
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
