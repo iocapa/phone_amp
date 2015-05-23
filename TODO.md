@@ -1,2 +1,2 @@
 #TODO
-1. Final Check and send to production
+1. V1 Sent to production. Yay!
