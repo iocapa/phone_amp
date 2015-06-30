@@ -3,7 +3,7 @@
   (general
     (links 88)
     (no_connects 0)
-    (area 127.115876 76.4086 147.664743 140.0691)
+    (area 133.864999 79.359999 145.535001 135.559701)
     (thickness 1.6)
     (drawings 10)
     (tracks 593)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -69,7 +69,7 @@
     (solder_mask_min_width 0.1)
     (aux_axis_origin 132.7404 136.8425)
     (grid_origin 132.7404 136.8425)
-    (visible_elements 7FFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
@@ -395,13 +395,13 @@
     (pad "" np_thru_hole circle (at 3.81 -1.15) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module footprints:JACK-3.5MM-NO-SILK (layer B.Cu) (tedit 555F955C) (tstamp 554D2156)
+  (module footprints:JACK-3.5MM-NO-SILK (layer B.Cu) (tedit 55852E1F) (tstamp 554D2156)
     (at 139.7 102.95 90)
     (path /5542EFCE)
-    (fp_text reference J2 (at 0 6.8326 90) (layer B.SilkS) hide
+    (fp_text reference J2 (at 0.15874 -0.05588 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PJ313D (at 0 -9.4996 90) (layer B.Fab) hide
+    (fp_text value PJ313D (at -1.71578 0.16764 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.25 6) (end -3.25 3.75) (layer B.CrtYd) (width 0.05))
@@ -456,13 +456,13 @@
     (pad "" np_thru_hole circle (at 0 2.75 90) (size 1.25 1.25) (drill 1.25) (layers *.Cu *.Mask))
   )
 
-  (module footprints:JACK-3.5MM-NO-SILK (layer B.Cu) (tedit 555F955C) (tstamp 554D2162)
+  (module footprints:JACK-3.5MM-NO-SILK (layer B.Cu) (tedit 55852E54) (tstamp 554D2162)
     (at 139.7 112.95 90)
     (path /5542F036)
-    (fp_text reference J3 (at 0 6.8326 90) (layer B.SilkS) hide
+    (fp_text reference J3 (at 0.06986 -0.0254 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value PJ313D (at 0 -9.4996 90) (layer B.Fab) hide
+    (fp_text value PJ313D (at -1.5405 0.127 180) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -3.25 6) (end -3.25 3.75) (layer B.CrtYd) (width 0.05))
@@ -603,13 +603,13 @@
     (pad "" np_thru_hole circle (at 3.81 -1.15 180) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D211D)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D5E) (tstamp 554D211D)
     (at 143.97 93.3 180)
     (path /554465AC)
-    (fp_text reference C12 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference C12 (at -7.6172 0.04898 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 1u (at -2.49656 0.02866 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -715,13 +715,13 @@
       (net 8 "Net-(C5-Pad1)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D212F)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D59) (tstamp 554D212F)
     (at 143.97 94.87 180)
     (path /55438339)
-    (fp_text reference C15 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference C15 (at -7.63752 -0.10822 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 1u (at -2.49656 -0.04726 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -741,13 +741,13 @@
       (net 19 +3V3))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D218E)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D61) (tstamp 554D218E)
     (at 143.97 96.41)
     (path /552CA24A)
-    (fp_text reference R4 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference R4 (at 7.37336 -0.0297) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 18k (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 18k (at 2.842 -0.0297) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -767,13 +767,13 @@
       (net 17 GND))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2188)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D55) (tstamp 554D2188)
     (at 143.97 97.95)
     (path /552CA063)
-    (fp_text reference R3 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference R3 (at 7.47496 -0.00506) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 18k (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 18k (at 2.7404 0.01526) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -793,13 +793,13 @@
       (net 17 GND))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D20FF)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D53) (tstamp 554D20FF)
     (at 143.97 99.49 180)
     (path /552B73A0)
-    (fp_text reference C7 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference C7 (at -7.45464 -0.12118 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 220n (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 220n (at -3.53288 -0.01958 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -819,13 +819,13 @@
       (net 13 HS_SPK_P))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21A0)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D6D) (tstamp 554D21A0)
     (at 143.97 101.03)
     (path /552B735A)
-    (fp_text reference R7 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference R7 (at 7.52068 0.00358) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.4k (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 2.4k (at 3.21792 0.00358) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -887,13 +887,13 @@
       (net 20 "Net-(C12-Pad2)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21D0)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DF7) (tstamp 554D21D0)
     (at 135.43 93.3 180)
     (path /552B0547)
-    (fp_text reference R15 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R15 (at 9.50696 -0.0831 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 3.3k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 2.2k (at 3.1468 -0.0069 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -913,13 +913,13 @@
       (net 19 +3V3))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D20DB)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DFF) (tstamp 554D20DB)
     (at 135.43 94.87)
     (path /552AA75C)
-    (fp_text reference C1 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C1 (at -9.0142 0.0371) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 220n (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 220n (at -3.41096 -0.1153) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -939,13 +939,13 @@
       (net 2 HP_MIC))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2182)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E06) (tstamp 554D2182)
     (at 135.43 96.41 180)
     (path /552AA588)
-    (fp_text reference R2 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R2 (at 9.0142 -0.0211 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.4k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 2.4k (at 3.223 0.0551 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -965,13 +965,13 @@
       (net 1 "Net-(C1-Pad1)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D20F3)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E0F) (tstamp 554D20F3)
     (at 135.43 97.95 180)
     (path /552AA1D3)
-    (fp_text reference C5 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference C5 (at 8.97356 -0.04574 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.2n (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 2.2n (at 3.25856 0.0711 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -991,13 +991,13 @@
       (net 9 "Net-(C5-Pad2)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2194)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E12) (tstamp 554D2194)
     (at 135.43 99.49 180)
     (path /552AA113)
-    (fp_text reference R5 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R5 (at 8.97356 -0.02974 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 18k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 18k (at 2.9182 0.04646 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1017,13 +1017,13 @@
       (net 9 "Net-(C5-Pad2)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21C4)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E2A) (tstamp 554D21C4)
     (at 135.43 101.03)
     (path /552ABC5F)
-    (fp_text reference R13 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference R13 (at -9.27836 0.1255) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 100k (at -3.3754 0.01374) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1103,13 +1103,13 @@
       (net 3 "Net-(C2-Pad1)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D20F9)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D7F) (tstamp 554D20F9)
     (at 143.97 104.87 180)
     (path /552B7008)
-    (fp_text reference C6 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference C6 (at -7.77468 0.12294 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 220n (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 220n (at -3.47192 -0.0447 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1129,13 +1129,13 @@
       (net 11 HS_SPK_N))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D219A)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D87) (tstamp 554D219A)
     (at 143.97 106.41)
     (path /552B6FA8)
-    (fp_text reference R6 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference R6 (at 7.85596 -0.06782) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.4k (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 2.4k (at 3.13664 0.01346) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1155,13 +1155,13 @@
       (net 10 "Net-(C6-Pad1)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21B2)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852D90) (tstamp 554D21B2)
     (at 143.97 107.95)
     (path /552A9A4A)
-    (fp_text reference R10 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference R10 (at 8.38936 -0.12954) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.4k (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 2.4k (at 3.13664 0.06858) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1181,13 +1181,13 @@
       (net 21 "Net-(C13-Pad2)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2123)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DA3) (tstamp 554D2123)
     (at 143.97 109.49)
     (path /552B658E)
-    (fp_text reference C13 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C13 (at 8.303 0.00686) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22n (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 22n (at 2.98424 -0.0033) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1207,13 +1207,13 @@
       (net 21 "Net-(C13-Pad2)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21AC)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DA9) (tstamp 554D21AC)
     (at 143.97 111.03 180)
     (path /552B72AC)
-    (fp_text reference R9 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R9 (at -7.88644 0.02438 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2.4k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 2.4k (at -3.19252 -0.0315 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1233,13 +1233,13 @@
       (net 15 "Net-(C9-Pad1)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2129)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E39) (tstamp 554D2129)
     (at 135.43 104.87 180)
     (path /552AC0A7)
-    (fp_text reference C14 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference C14 (at 9.1666 0.1331 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 1u (at 2.42036 0.0569 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1259,13 +1259,13 @@
       (net 17 GND))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21CA)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E40) (tstamp 554D21CA)
     (at 135.43 106.41 180)
     (path /552ABF4D)
-    (fp_text reference R14 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R14 (at 9.12596 0.1491 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 100k (at 3.33476 0.10846 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1285,13 +1285,13 @@
       (net 17 GND))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2135)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E51) (tstamp 554D2135)
     (at 135.43 107.95)
     (path /552A9AA1)
-    (fp_text reference C16 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C16 (at -9.319 -0.0127) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 1u (at -2.57276 -0.1651) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1311,13 +1311,13 @@
       (net 19 +3V3))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2111)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E4D) (tstamp 554D2111)
     (at 135.43 109.49)
     (path /552C394B)
-    (fp_text reference C10 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C10 (at -9.319 0.0475) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 1u (at -2.57276 -0.1049) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1337,13 +1337,13 @@
       (net 18 "Net-(C10-Pad2)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D20E7)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E58) (tstamp 554D20E7)
     (at 135.43 111.03 180)
     (path /552C2F69)
-    (fp_text reference C3 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference C3 (at 8.8618 0.00406 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 1u (at 2.57276 0.08026 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1363,13 +1363,13 @@
       (net 6 "Net-(C3-Pad2)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2117)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E6E) (tstamp 554D2117)
     (at 135.43 114.87)
     (path /552C3F85)
-    (fp_text reference C11 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C11 (at -9.12596 0.0015) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1u (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 1u (at -2.57276 -0.2271) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1389,13 +1389,13 @@
       (net 19 +3V3))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D217C)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E73) (tstamp 554D217C)
     (at 135.43 116.41 180)
     (path /552C4BE3)
-    (fp_text reference R1 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R1 (at 8.59256 -0.10234 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 27.3k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 27.3k (at 3.71576 0.05006 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1415,13 +1415,13 @@
       (net 17 GND))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D2105)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E84) (tstamp 554D2105)
     (at 135.43 117.95)
     (path /55436F23)
-    (fp_text reference C8 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C8 (at -8.51636 0.01014) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 220n (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 220n (at -3.4516 -0.1829) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1441,13 +1441,13 @@
       (net 8 "Net-(C5-Pad1)"))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21A6)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852E80) (tstamp 554D21A6)
     (at 135.43 119.49 180)
     (path /55437407)
-    (fp_text reference R8 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R8 (at 8.4808 0.00586 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 3.3k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 4.3k (at 3.2992 0.00586 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1467,13 +1467,13 @@
       (net 14 HP_MIC_OUT))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D210B)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DBF) (tstamp 554D210B)
     (at 143.97 114.87)
     (path /552B7300)
-    (fp_text reference C9 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C9 (at 7.94232 -0.00866) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22n (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 22n (at 3.096 0.0015) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1493,13 +1493,13 @@
       (net 16 VGND))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D20ED)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DC8) (tstamp 554D20ED)
     (at 143.97 116.41)
     (path /552BD8C1)
-    (fp_text reference C4 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C4 (at 8.01344 -0.05006) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22n (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 22n (at 3.096 0.10234) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1519,13 +1519,13 @@
       (net 4 HP_SPK_PRE))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D20E1)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DD0) (tstamp 554D20E1)
     (at 143.97 117.95)
     (path /552BDB3A)
-    (fp_text reference C2 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference C2 (at 8.08964 -0.06606) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 22n (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 22n (at 3.06044 -0.0305) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1545,13 +1545,13 @@
       (net 4 HP_SPK_PRE))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21BE)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DD4) (tstamp 554D21BE)
     (at 143.97 119.49 180)
     (path /55419742)
-    (fp_text reference R12 (at 0 -1.6002 180) (layer F.SilkS) hide
+    (fp_text reference R12 (at -8.6586 0.0465 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 43k (at 0 1.5748 180) (layer F.Fab) hide
+    (fp_text value 43k (at -3.0198 0.0465 180) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))
@@ -1571,13 +1571,13 @@
       (net 17 GND))
   )
 
-  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 555F9467) (tstamp 554D21B8)
+  (module footprints:CHIP-0603-NO-SILK (layer F.Cu) (tedit 55852DDC) (tstamp 554D21B8)
     (at 143.97 121.03)
     (path /55418FB0)
-    (fp_text reference R11 (at 0 -1.6002) (layer F.SilkS) hide
+    (fp_text reference R11 (at 8.7348 0.0899) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100k (at 0 1.5748) (layer F.Fab) hide
+    (fp_text value 100k (at 3.4008 0.0137) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.47 -0.72) (end -1.47 0.72) (layer F.CrtYd) (width 0.05))

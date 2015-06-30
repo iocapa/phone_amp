@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Johny/Downloads/phone_amp/src/phone_amp.sch)
-    (date "5/19/2015 10:52:55 PM")
+    (date "6/30/2015 9:09:59 PM")
     (tool "Eeschema (after 2015-mar-04 BZR unknown)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -82,7 +82,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 552AC0A7))
     (comp (ref R15)
-      (value 3.3k)
+      (value 2.2k)
       (footprint footprints:CHIP-0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -214,7 +214,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55436F23))
     (comp (ref R8)
-      (value 3.3k)
+      (value 4.3k)
       (footprint footprints:CHIP-0603)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
@@ -262,38 +262,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5543973E)))
   (libparts
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part FUSE)
-      (fields
-        (field (name Reference) F)
-        (field (name Value) FUSE))
-      (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))))
-    (libpart (lib device) (part SWITCH_INV)
-      (description "Switch inverseur")
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SWITCH_INV))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))))
     (libpart (lib CaPaSchLib) (part MCP6024)
       (description "Rail-to-Rail Input/Output, 10 MHz Op Amps")
       (fields
@@ -381,7 +349,39 @@
         (pin (num 11) (name GND) (type power_in))
         (pin (num 12) (name GAIN) (type input))
         (pin (num 13) (name OUT_R) (type output))
-        (pin (num 14) (name -IN_R) (type input)))))
+        (pin (num 14) (name -IN_R) (type input))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part SWITCH_INV)
+      (description "Switch inverseur")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SWITCH_INV))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part FUSE)
+      (fields
+        (field (name Reference) F)
+        (field (name Value) FUSE))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
     (library (logical CaPaSchLib)
       (uri C:\Users\Johny\Downloads\kicad\library\CaPaSchLib.lib))
