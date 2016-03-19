@@ -1,0 +1,3 @@
+[submodule "lib/iocapa_pcb_lib"]
+	path = lib/iocapa_pcb_lib
+	url = git@github.com:iocapa/iocapa_pcb_lib.git
